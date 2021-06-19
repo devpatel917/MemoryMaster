@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title1>MemoryLadder</title1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+
+<body>
+
+<h1>
+    MemoryMaster
+</h1>
+<p id = "p8"></p>
+<p id = "p7"></p>
+<p id = p2></p>
+<p id = "p3"></p>
+<p id = "p4"></p>
+<p id = "p5"></p>
+<p id = "p6"></p>
+<p id = "p1" style="color:red;">
+    Instructions: You are in debt but you have no money! This game will allow you to gain money to pay off your debt. You will be given a list of numbers to memorize in 60 seconds.
+    Then the list of numbers will disappear and you will have to find the numbers that were from the list in the number
+    search. If you complete the task, you get a certain amount of money and you have a choice to move on to the next level (which gets tougher).
+    If you fail the next level, then half of your money is lost. After you quit the game or lose the game, your debt will be shown. The goal of the game is to have as much money as possible and pay off your debt.</p>
+<input type="button" onclick="OnePlayer()" id = "OnePlayer" class="button3" value="Play!">
+
+<input type="button" onclick="MakeSelection()" id = "MakeSelection"  class = "button5" value="Select" >
+<input type="button" onclick="FinishSearch()" id = "FinishSearch"  class = "button6" value="Done!" >
+<br>
+<canvas id="myCanvas" width="1075" height="1075"
+        style="border:1px solid #000000;">
+</canvas>
+
+
+
+
+
+</body>
+</html>
